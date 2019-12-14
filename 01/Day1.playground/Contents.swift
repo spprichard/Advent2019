@@ -93,5 +93,5 @@ let computedFuel = data.map { computeFuelRemaining(value: $0) }
 computedFuel.reduce(0, +)
 
 // Part 2
-let computedAllModulesFuelRequirements = data.map { computeFuelRequirements(value: $0)}
+let computedAllModulesFuelRequirements = data.map { computeFuelRequirements(value: $0) }
 computedAllModulesFuelRequirements.reduce(0, +)
